@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Document */
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+a {
+	text-decoration:none;
+	color:#737373;
+}
+a:hover {
+	text-decoration:none;
+}
+.hover:hover {
+	text-decoration:underline;
+}
+
+/*Header*/	
+.header {
+	height: auto;
+	margin-top: 14.78px;
+	padding-bottom:148px;
+	width:100%;
+}
+.header ul {
+	float:right;
+	text-align:center;
+}
+li {
+	padding-right:15.82px;
+	display:inline;
+	font-size:13px;
+	line-height:30px;
+	margin:0 auto;
+}
+
+#grid {
+	background:url(../images/grid.png) no-repeat;
+	width: 16px;
+	height:16px;
+	margin:0 auto;
+	position: relative;
+	top: 3px;
+}
+#grid:hover {
+	background:url(../images/grid-mouse-over.png) no-repeat;
+	width: 16px;
+	height:16px;
+	margin:0 auto;
+}
+#nav-button {
+	background-color: #4182f6;
+	color: white;
+	font-family: arial;
+	padding: 5px 10px 5px 10px;
+	font-weight: bold;
+	text-align:center;
+}
+/*Content*/
+	
+.logo {
+	background:url(../images/logo.png) no-repeat;
+	width: 269px;
+	height:95px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 23px;
+	margin-left: auto;
+}
+form {
+	text-align:center;
+}
+
+.boxsearch {
+	display:block;
+	width: 570px;
+	height:31px;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+	border-style:solid;
+	border-width:1px;
+	border-color:#4285f4;
+	background:url(../images/mic.png) no-repeat right;
+	
+}
+
+.btnsearch {
+	margin-top:16.33px;
+	padding: 8.33px 8.33px 8.33px 8.33px;
+	font-weight:bold;
+	font-size:11px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#d9d9d9;
+}
+.btnsearch:hover{
+	cursor:pointer;
+	border-top-color:#d9d9d9;
+	border-right-color: #d9d9d9;
+	border-bottom-color: #d9d9d9;
+	border-left-color: #d9d9d9;
+	border-style:outset;
+}
+	
+.btnlucky:hover{
+	cursor:pointer;
+	border-top-color:#d9d9d9;
+	border-right-color: #d9d9d9;
+	border-bottom-color: #d9d9d9;
+	border-left-color: #d9d9d9;
+	border-style:outset;
+}
+.btnlucky {
+	margin-top:16.33px;
+	margin-left:17px;
+	padding: 8.33px 8.33px 8.33px 8.33px;
+	font-weight:bold;
+	font-size:11px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#d9d9d9;
+}
+
+form{
+	
+	text-align:center;
+}
+	
+
+
+/*Footer*/
+	
+#right {
+	display: block;
+	float:right;
+	padding-right:32px;
+}
+
+
+#left {
+	display: block;
+	float:left;
+	padding-left:32px;
+}
+
+.clear {
+	clear:both;
+}
+.footer {
+	position: fixed;
+	bottom: 0px;
+	background-color: #f2f2f2;
+	height: auto;
+	border-top: 1px solid #e4e4e4;
+	width: 100%
+}
+#new {
+	color:#b74436;
+}
