@@ -69,19 +69,14 @@ li {
 }
 
 #grid {
-	background:url(../images/grid.png) no-repeat;
+	
 	width: 16px;
 	height:16px;
 	margin:0 auto;
 	position: relative;
 	top: 3px;
 }
-#grid:hover {
-	background:url(../images/grid-mouse-over.png) no-repeat;
-	width: 16px;
-	height:16px;
-	margin:0 auto;
-}
+
 #nav-button {
 	background-color: #4182f6;
 	color: white;
